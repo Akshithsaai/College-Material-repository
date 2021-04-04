@@ -1,0 +1,72 @@
+
+body
+{
+   margin:0px;
+   padding:0px;
+}
+
+#body1
+{
+    background-color:black;
+    width: 1350px;
+    height: 500px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#body2
+{
+    background-color:black;
+    width: 1350px;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#body3
+{
+    background-color:black;
+    width: 1480px;
+    height: 500px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#body4
+{
+    background-color:black;
+    width: 1480px;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#logo
+{    padding-left: 150px;
+    width:1100px;
+    height:100px;
+    margin: 00px 00px 00px 0px;
+}
+#library
+{
+    width: 1350px;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#library1
+{
+    width: 1480px;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 00px;
+    padding-top: 00px;
+}
+#name
+{
+    padding-left: 00px;
+   padding-top:00px;
+}

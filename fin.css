@@ -4,14 +4,13 @@
 }
 
 body {
-  
   background-attachment: fixed;
   background-size: 550px;
   padding: 40px;
   font-family: Arial;
 }
 
-
+/* Center website */
 .main {
   max-width: 50px;
   margin:40px;
@@ -20,9 +19,6 @@ body {
 h1 {
   font-size: 40px;
   color: blue;
-  text-align: center;
-  text-decoration:underline ;
-  text-decoration-color: rgb(255, 8, 8);
   background-color:rgb(251, 255, 0);
   border-radius: 10px;
   box-shadow : 2px 2px 10px black;
@@ -34,25 +30,27 @@ h1 {
   
 }
 
+/* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 40px;
+  padding: 20px;
 }
 
-
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 400px;
-  display: grid ; 
+  display: grid ; /* Hide columns by default */
 }
 
-
+/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* Content */
 .content {
   background-color: rgb(251, 255, 0);
   border-radius: 20px;
@@ -60,7 +58,7 @@ h1 {
   padding: 25px 30px;
 }
 
-
+/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
@@ -68,13 +66,14 @@ h1 {
 Style the buttons
 .btn {
   border:rgb(47, 0, 255);
-  outline:rgb(165, 167, 163);
+  outline:rgb(157, 220, 20);
   padding: 12px 16px;
   background-color: rgb(255, 8, 8);
   cursor: pointer;
   
 }
 
+/* Add a grey background color on mouse-over */
 .btn:hover {
   background-color: rgb(1, 255, 22);
   border-radius: 10px;
@@ -84,3 +83,28 @@ Style the buttons
 
 
 
+/* Pagination links */
+.pagination a {
+  color: rgb(0, 4, 255);
+  float: center;
+  padding: 8px 16px 8px 16px;
+
+  transition: background-color .3s;
+  background-color: ivory;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: rgb(238, 19, 19);
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: rgba(221, 221, 221, 0.712);}
+
+footer{
+  background-color: ivory;
+  float: center;
+  padding-top: 0.11px;
+  padding-bottom: 0.11px
+}
